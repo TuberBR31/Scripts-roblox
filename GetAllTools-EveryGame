@@ -1,0 +1,1 @@
+for _,v in game:GetDescants() do if v:IsA("Tool") then v:Clone().Parent = game.Players.LocalPlayer.Backpack end end
